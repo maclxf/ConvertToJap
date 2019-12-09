@@ -1,17 +1,16 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <convert-to-jap></convert-to-jap>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import ConvertToJap from "./components/ConvertToJap";
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    ConvertToJap
   }
 }
 </script>
